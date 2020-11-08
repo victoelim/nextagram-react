@@ -1,3 +1,7 @@
+.main-div {
+  position: relative;
+  top: 7vh;
+}
 .App {
   text-align: center;
 }

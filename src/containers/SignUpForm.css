@@ -1,0 +1,39 @@
+.SignUpDivForm {
+    display: flex;
+    flex-flow: column nowrap;
+    align-items: flex-start;
+    justify-content: flex-start;
+}
+
+
+.SignUpDiv {
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: flext-start;
+    align-items: center;
+}
+
+#username {
+    margin-bottom: 10px;
+}
+
+#password {
+    margin-bottom: 10px;
+}
+
+#email {
+    margin-bottom: 10px;
+}
+
+#confirmPassword {
+    margin-bottom: 10px;
+}
+
+.SignUpDiv span {
+    text-decoration: underline;
+}
+
+.SignUpDiv span:hover {
+    cursor: pointer;
+    color: rgb(125, 125, 255);
+}

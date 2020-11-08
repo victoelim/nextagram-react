@@ -1,0 +1,30 @@
+.LoginDivForm {
+    display: flex;
+    flex-flow: column nowrap;
+    align-items: flex-start;
+    justify-content: flex-start;
+}
+
+.LoginDiv {
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: flex-start;
+    align-items: center;
+} 
+
+#username {
+    margin-bottom: 10px;
+}
+
+#password {
+    margin-bottom: 10px;
+}
+
+.LoginDiv span {
+    text-decoration: underline;
+}
+
+.LoginDiv span:hover {
+    cursor: pointer;
+    color: rgb(125, 125, 255);
+}

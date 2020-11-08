@@ -1,0 +1,32 @@
+.uploadContainer {
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.uploadPics {
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: flex-start;
+    align-items: flex-start;
+    width: 30vw;
+    border-bottom: 1px solid rgb(202, 202, 202);
+    padding: 20px 50px;
+    box-sizing: border-box;
+}
+
+
+.uploadPics input {
+    margin-bottom: 10px;
+}
+
+.live-preview {
+    /* border: 1px solid black; */
+    width: 29.9vw;
+    height: 34vh;
+    text-align: center;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}

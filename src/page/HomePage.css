@@ -1,0 +1,46 @@
+.DivCont {
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: flex-start;
+  align-items: center;
+  background-color: #efefef;
+  margin: 0px;
+  border-bottom: 1px solid lightgray;
+  padding: 10px 30px;
+  box-shadow: 5px 10px 18px #888888;
+}
+
+.ProfDiv {
+  display: flex;
+  flex-flow: column nowrap;
+  justify-content: center;
+  align-items: center;
+  margin: 20px 30px;
+  border: none;
+}
+
+.ProfDiv p {
+    font-weight: bolder;
+    color:#3DA8F7;
+    font-size: 1.5rem;
+    text-align: center;
+}
+
+.ProfImg {
+  width: 15rem;
+  height: 15rem;
+  border-radius: 50%;
+  margin-bottom: 20px;
+}
+
+.UserGenImg {
+  margin-bottom: 20px;
+  margin-left: 20px;
+}
+
+#see-more {
+    color: #3DA8F7;
+    font-size: 1.3rem;
+    font-weight: bold;
+    text-decoration: none;
+}
